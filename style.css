@@ -144,6 +144,5 @@ form {
   footer{
       background-color: #ccc;
       padding: 20px;
-      animation: raimbow 0.3s infinite;
-      margin-bottom: -100px;
+      animation: raimbow 1s infinite;
   }
