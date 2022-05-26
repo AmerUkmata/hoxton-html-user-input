@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
 /*index*/
 form {
     padding-top: 20px;
@@ -53,3 +57,93 @@ form {
     margin: 5px;
   }
   /*THANKYOU Page*/
+.Nice{
+  text-align: center;
+}
+.Nice h1{
+    color: rebeccapurple;
+    animation: jiggle 0.7s infinite;
+}
+.Nice2{
+ text-align: center;
+}
+.Nice2 h2{
+    color: rebeccapurple;
+   animation: jiggle 0.7s infinite;
+}
+
+@keyframes jiggle {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    20% {
+      transform: rotate(-20deg);
+    }
+  
+    30% {
+      transform: rotate(20deg);
+    }
+  
+    40% {
+      transform: rotate(-10deg);
+    }
+  
+    50% {
+      transform: rotate(10deg);
+    }
+  
+    60% {
+      transform: rotate(-5deg);
+    }
+  
+    70% {
+      transform: rotate(5deg);
+    }
+  
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes raimbow {
+    0% {
+      background-color: red;
+    }
+  
+    20% {
+        background-color: green;
+    }
+  
+    30% {
+        background-color: blue;
+    }
+  
+    40% {
+        background-color: purple;
+    }
+  
+    50% {
+        background-color: pink;
+    }
+  
+    60% {
+        background-color: orange;
+    }
+  
+    70% {
+        background-color: yellow;
+    }
+  
+    100% {
+        background-color: gray;
+    }
+  }
+  .Video{
+      text-align: center;
+  }
+  footer{
+      background-color: #ccc;
+      padding: 20px;
+      animation: raimbow 0.3s infinite;
+      margin-bottom: -100px;
+  }
