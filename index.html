@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <br>
+    <form>
+        <h2 style="text-align: center;">
+         Hellow there
+        </h2>
+        <label for="name">Full Name</label>
+        <input
+          id="name"
+          type="text"
+          name="name"
+          required
+          minlength="3"
+          maxlength="20"
+        />
+  
+        <label for="age">Age</label>
+        <input id="age" type="number" name="age" required min="18" max="100" />
+  
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" required />
+  
+        <label for="about">What is this about?</label>
+        <select id="about" name="about" required>
+          <option value="">Please select an option</option>
+          <option>Pets</option>
+          <option>Houses</option>
+          <option>Holidays</option>
+          <option>Other</option>
+        </select>
+  
+        <label for="message">Message:</label>
+        <textarea
+          id="message"
+          rows="5"
+          name="message"
+          required
+          minlength="10"
+        ></textarea>
+  
+        <label for="agree"
+          >I agree
+          <input id="agree" type="checkbox" name="agree" required />
+        </label>
+  
+        <button>SEND</button>
+      </form>
+</body>
+</html>

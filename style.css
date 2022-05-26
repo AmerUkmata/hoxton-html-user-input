@@ -1,0 +1,14 @@
+form {
+    padding-top: 20px;
+    display: grid;
+    width: 300px;
+    box-shadow: 3px 3px 3px 3px rebeccapurple;
+    gap: 1rem;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  h2{
+      color: rebeccapurple;
+  }
