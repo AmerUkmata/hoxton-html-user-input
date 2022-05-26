@@ -1,9 +1,13 @@
+/*index*/
 form {
     padding-top: 20px;
     display: grid;
     width: 300px;
     box-shadow: 3px 3px 3px 3px rebeccapurple;
     gap: 1rem;
+    margin-left: 500px;
+    border-radius: 5%;
+    border: 3px solid #fff;
   }
   
   textarea {
@@ -12,3 +16,40 @@ form {
   h2{
       color: rebeccapurple;
   }
+  a{
+    text-align: center; 
+    border: 1px solid lime; 
+    box-shadow: 2px 2px 2px 2px green; 
+    background-color:lime;
+    text-decoration: solid;
+    color: #fff;
+    border-radius: 20%;
+  }
+  a h3{
+      padding: -20px;
+      height: 20px;
+  }
+  #name{
+      border: none;
+      border-bottom: 1px solid gray;
+  }
+  #age{
+    border: none;
+    border-bottom: 1px solid gray;
+  }
+  #email{
+    border: none;
+    border-bottom: 1px solid gray;
+  }
+  button{
+      border-radius: 15%;
+      background-color: rebeccapurple;
+      margin-bottom: 15px;
+      border-style: groove;
+      border: rebeccapurple;
+  }
+  button h4{
+    color: #fff;
+    margin: 5px;
+  }
+  /*THANKYOU Page*/
